@@ -218,6 +218,7 @@ nav > .wrapper > ul > li {
 
 aside {
     margin-left: 2rem;
+    width: 20rem;
 }
 
 h3 {
@@ -287,6 +288,7 @@ footer > .content {
     }
     .double-page > aside {
         width: 90%;
+        margin-left: 0;
     }
 
 
@@ -307,7 +309,16 @@ footer > .content {
 
 }
 
+img {
+    border-radius: .25rem;
+    margin: 1rem;
+}
+
 @media screen  and (max-width: 600px){
+    img {
+        margin: 0;
+    }
+
     nav > .wrapper > ul {
         display: none;
     }

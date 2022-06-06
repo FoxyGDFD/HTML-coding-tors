@@ -15,7 +15,6 @@ if (window.getComputedStyle(next).display !== 'none' || window.getComputedStyle(
             let left = container.style.left.replace(/px/, '');
 
             if (Number(left) > -1 * Number(container.offsetWidth) * (3 / 4)) {
-                // container.style.left = Number(container.style.left.replace(/px/, '')) - 350 + 'px';
                 container.style.left = Number(container.style.left.replace(/px/, '')) - Number(container.offsetWidth / 4) + 'px';
             } else {
                 container.style.left = '0px';
@@ -27,7 +26,6 @@ if (window.getComputedStyle(next).display !== 'none' || window.getComputedStyle(
             let left = container.style.left.replace(/px/, '');
 
             if (Number(left) < 0) {
-                // container.style.left = Number(container.style.left.replace(/px/, '')) + 350 + 'px';
                 container.style.left = Number(container.style.left.replace(/px/, '')) + Number(container.offsetWidth / 4) + 'px';
             } else {
                 container.style.left = Number(container.offsetWidth) * (-3 / 4) + 'px';
@@ -39,7 +37,6 @@ if (window.getComputedStyle(next).display !== 'none' || window.getComputedStyle(
             let left = container.style.left.replace(/px/, '');
 
             if (Number(left) > -1 * Number(container.offsetWidth) * (1 / 2)) {
-                // container.style.left = Number(container.style.left.replace(/px/, '')) - 350 + 'px';
                 container.style.left = Number(container.style.left.replace(/px/, '')) - Number(container.offsetWidth / 4) + 'px';
             } else {
                 container.style.left = '0px';
@@ -51,7 +48,6 @@ if (window.getComputedStyle(next).display !== 'none' || window.getComputedStyle(
             let left = container.style.left.replace(/px/, '');
 
             if (Number(left) < 0) {
-                // container.style.left = Number(container.style.left.replace(/px/, '')) + 350 + 'px';
                 container.style.left = Number(container.style.left.replace(/px/, '')) + Number(container.offsetWidth / 4) + 'px';
             } else {
                 container.style.left = Number(container.offsetWidth) * (-1 / 2) + 'px';
@@ -63,7 +59,6 @@ if (window.getComputedStyle(next).display !== 'none' || window.getComputedStyle(
             let left = container.style.left.replace(/px/, '');
 
             if (Number(left) > -1 * Number(container.offsetWidth) * (1 / 4)) {
-                // container.style.left = Number(container.style.left.replace(/px/, '')) - 350 + 'px';
                 container.style.left = Number(container.style.left.replace(/px/, '')) - Number(container.offsetWidth / 4) + 'px';
             } else {
                 container.style.left = '0px';
@@ -75,7 +70,6 @@ if (window.getComputedStyle(next).display !== 'none' || window.getComputedStyle(
             let left = container.style.left.replace(/px/, '');
 
             if (Number(left) < 0) {
-                // container.style.left = Number(container.style.left.replace(/px/, '')) + 350 + 'px';
                 container.style.left = Number(container.style.left.replace(/px/, '')) + Number(container.offsetWidth / 4) + 'px';
             } else {
                 container.style.left = Number(container.offsetWidth) * (-1 / 4) + 'px';
